@@ -1,0 +1,12 @@
+-- Cold Fusion LUA Decompiler v1.0.0
+-- By 4E534B
+-- Date: 07-25-2007 Time: 22:56:55
+-- On error(s), send source (compiled) file to 4E534B@gmail.com
+
+bulletfx="emp_pulse_combo_red.lua";
+nopenetratefx="nopen_generic";
+deathtype="deathCannon";
+hit_sfx="Weapon/Fighter/Impact/WEAPON_FIGHTER_Kinetic_Autogun_Hit";
+hit_clamp={1,
+	1};
+

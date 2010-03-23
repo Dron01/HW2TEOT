@@ -1,0 +1,6 @@
+-- ВЗРЫВ УЗКОГО РАДИУСА ПОРАЖЕНИЯ
+-- устанавливается в снаряд гига пушки тобари
+
+StartWeaponConfig(NewWeaponType, "Fixed", "SphereBurst", "EMP_RED", "Normal", 0, 0, 700, 3, 0, 0, 10, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0.1, "Normal", 1, 0, 0);
+AddWeaponResult(NewWeaponType, "Hit", "DamageHealth", "Target", 800, 1400, "");
+setPenetration(NewWeaponType, 10, 1, {unarmoured=0.00}, {lightarmour=0.00}, {mediumarmour=1.2}, {heavyarmour=0.1}, {PlanetKillerArmour=0}, {ResArmour=0.0}, {SubSystemArmour=0.0}, {TurretArmour=0.0});

@@ -1,0 +1,17 @@
+-- ÂÛÄÂÈÆÍÎÅ ÎĞÓÄÈÅ İÊÇÅÊÓÒÎĞÀ
+-- ÑÊÎÌÁÈÍÈĞÎÂÀÍÎ Ñ ÄÂÓÌß ÎÁÅÌÍÛÌÈ ÂÇĞÛÂÀÌÈ
+-- ğàçğàáîòàí äëÿ ëèíêîğà òîáàğè
+
+StartWeaponConfig(NewWeaponType, "AnimatedTurret", "Bullet", "tob_gigaturret", "Normal", 2750, 7000, 0, 0, 0, 0, 1, 1, 1, 5, 0, 0, 1, 1, 10, 10, 0.1, "Normal", 0, 1, 0)
+AddWeaponResult(NewWeaponType, "Hit", "DamageHealth", "Target", 5650, 7050, "")
+AddWeaponResult(NewWeaponType, "Hit", "Push", "Target", 1500, 2000, "")
+AddWeaponResult(NewWeaponType, "Hit", "SpawnWeaponFire", "Target", 0, 0, "Hgn_gigaturretsuPBurst_a")
+AddWeaponResult(NewWeaponType, "Hit", "SpawnWeaponFire", "Target", 0, 0, "Hgn_gigaturretsuPBurst_b")
+setPenetration(NewWeaponType, 50, 1, {PlanetKillerArmour = 0,}, {SubSystemArmour = 0.3, }, {heavyarmour=1.6})
+setAccuracy(NewWeaponType, 1, {Fighter = 0,}, {Corvette = 0,}, {munition = 0.05,}, {Frigate = 0.3, damage = 1,}, 
+{SmallCapitalShip = 0.6, damage = 1,}, 
+{BigCapitalShip = 0.8, damage = 1,}, 
+{ResourceLarge = 0.6,  damage = 1, })
+setAngles(NewWeaponType, 5, -160, 160, -8, 25)
+setMiscValues(NewWeaponType, 60, 0)
+addAnimTurretSound(NewWeaponType, "Data:Sound/SFX/ETG/SPECIAL/SPECIAL_ABILITIES_TURRET_ON")

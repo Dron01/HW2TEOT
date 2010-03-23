@@ -1,0 +1,175 @@
+-- LuaDC version 0.9.19
+-- 5/23/2004 7:24:42 PM
+-- LuaDC by Age2uN
+-- on error send source file (compiled lua) and this outputfile to Age2uN@gmx.net
+--
+effects = 
+{ 
+    animations = 
+    { 
+        animation1 = 
+        { 
+            name = "Death", 
+            length = 2, 
+            loop = 0, 
+            parent = "", 
+            minimum = 0, 
+            maximum = 0, 
+            markers = 
+                { "", }, }, 
+        animation2 = 
+        { 
+            name = "Fire_Bottom", 
+            length = 1.2, 
+            loop = 0, 
+            parent = "", 
+            minimum = 0, 
+            maximum = 0, 
+            markers = 
+                { "", }, }, 
+        animation3 = 
+        { 
+            name = "Fire_Bottom1", 
+            length = 1.2, 
+            loop = 0, 
+            parent = "", 
+            minimum = 0, 
+            maximum = 0, 
+            markers = 
+                { "", }, },
+        animation4 = 
+        { 
+            name = "Fire_Bottom2", 
+            length = 1.2, 
+            loop = 0, 
+            parent = "", 
+            minimum = 0, 
+            maximum = 0, 
+            markers = 
+                { "", }, }, }, 
+    events = 
+    { 
+        event1 = 
+            { 
+                { "anim", "Death", }, 
+                { "animtime", "0.2", }, 
+                { "marker", "marker2", }, 
+                { "fx", "dmg_cloud_explosion_large", }, 
+                { "sound", "EXPLOSION/MEDIUM/ETG_EXPLODE_MEDIUM_FIREY", }, 
+                { "fx_scale", "0.4", }, 
+            }, 
+        event2 = 
+            { 
+                { "anim", "Death", }, 
+                { "animtime", "0", }, 
+                { "marker", "marker3", }, 
+                { "fx", "dmg_cloud_explosion_large", }, 
+                { "fx_scale", "0.6", }, 
+            }, 
+        event3 = 
+            { 
+                { "anim", "Death", }, 
+                { "animtime", "0.5", }, 
+                { "marker", "Root", }, 
+                { "fx", "dmg_cloud_main_explosion_combo", }, 
+                { "sound", "EXPLOSION/MEDIUM/ETG_EXPLODE_MEDIUM_FIREY", }, 
+                { "fx_scale", "3", }, 
+            }, 
+        event4 = 
+            { 
+                { "anim", "Death", }, 
+                { "animtime", "0.1", }, 
+                { "marker", "marker1", }, 
+                { "fx", "dmg_cloud_explosion_large", }, 
+                { "fx_scale", "0.3", }, 
+            }, 
+        event5 = 
+            { 
+                { "anim", "dmg01", }, 
+                { "animtime", "-1", }, 
+                { "marker", "marker1,maker2", }, 
+                { "fx", "dmg_damage_puff_combo_frigate,dmg_damage_cloud_puff_spray", }, 
+                { "sound", "DAMAGE/SMOKE/DAMAGE_SMOKE_EXHAUST_HEAVY", }, 
+                { "fx_scale", "3", }, 
+                { "fx_nlips", "on", }, 
+            }, 
+        event6 = 
+            { 
+                { "anim", "dmg02", }, 
+                { "animtime", "-1", }, 
+                { "marker", "marker3,maker4", }, 
+                { "fx", "dmg_damage_puff_combo_frigate,dmg_damage_cloud_puff_spray", }, 
+                { "sound", "DAMAGE/SMOKE/DAMAGE_SMOKE_EXHAUST_HEAVY", }, 
+                { "fx_scale", "2", }, 
+                { "fx_nlips", "on", }, 
+            }, 
+        event7 = 
+            { 
+                { "anim", "dmg03", }, 
+                { "animtime", "-1", }, 
+                { "marker", "marker5", }, 
+                { "fx", "dmg_damage_puff_combo_frigate,dmg_damage_cloud_puff_spray", }, 
+                { "sound", "DAMAGE/SMOKE/DAMAGE_SMOKE_EXHAUST_HEAVY", }, 
+                { "fx_scale", "5", }, 
+                { "fx_nlips", "on", }, 
+            }, 
+        event8 = 
+            { 
+                { "anim", "Fire_Bottom", }, 
+                { "animtime", "0", }, 
+                { "marker", "Weapon_Turret_Muzzle", }, 
+                { "fx", "muzzle_flash_combo_small_frigate", }, 
+                { "sound", "WEAPON/CORVETTE/impact/weapon_corvette_vulcan_kinetic_turret_hit/weapon_corvette_vulcan_kinetic_turret_hit3", }, 
+                { "fx_scale", "0.3", }, 
+                { "fx_nlips", "on", }, 
+            }, 
+        event9 = 
+            { 
+                { "anim", "Fire_Bottom", }, 
+                { "animtime", "1", }, 
+                { "marker", "Weapon_TurretSlave_Muzzle", }, 
+                { "fx", "muzzle_flash_combo_small_frigate", }, 
+                { "sound", "WEAPON/CORVETTE/impact/weapon_corvette_vulcan_kinetic_turret_hit/weapon_corvette_vulcan_kinetic_turret_hit3", }, 
+                { "fx_scale", "0.3", }, 
+                { "fx_nlips", "on", }, 
+            },
+        event10 = 
+            { 
+                { "anim", "Fire_Bottom1", }, 
+                { "animtime", "0", }, 
+                { "marker", "Weapon_Turret1_Muzzle", }, 
+                { "fx", "muzzle_flash_combo_small_frigate", }, 
+                { "sound", "WEAPON/CORVETTE/impact/weapon_corvette_vulcan_kinetic_turret_hit/weapon_corvette_vulcan_kinetic_turret_hit3", }, 
+                { "fx_scale", "0.3", }, 
+                { "fx_nlips", "on", }, 
+            }, 
+        event11 = 
+            { 
+                { "anim", "Fire_Bottom1", }, 
+                { "animtime", "1", }, 
+                { "marker", "Weapon_Turret1Slave_Muzzle", }, 
+                { "fx", "muzzle_flash_combo_small_frigate", }, 
+                { "sound", "WEAPON/CORVETTE/impact/weapon_corvette_vulcan_kinetic_turret_hit/weapon_corvette_vulcan_kinetic_turret_hit3", }, 
+                { "fx_scale", "0.3", }, 
+                { "fx_nlips", "on", }, 
+            },
+        event12 = 
+            { 
+                { "anim", "Fire_Bottom2", }, 
+                { "animtime", "0", }, 
+                { "marker", "Weapon_Turret2_Muzzle", }, 
+                { "fx", "muzzle_flash_combo_small_frigate", }, 
+                { "sound", "WEAPON/CORVETTE/impact/weapon_corvette_vulcan_kinetic_turret_hit/weapon_corvette_vulcan_kinetic_turret_hit3", }, 
+                { "fx_scale", "0.3", }, 
+                { "fx_nlips", "on", }, 
+            }, 
+        event13 = 
+            { 
+                { "anim", "Fire_Bottom2", }, 
+                { "animtime", "1", }, 
+                { "marker", "Weapon_Turret2Slave_Muzzle", }, 
+                { "fx", "muzzle_flash_combo_small_frigate", }, 
+                { "sound", "WEAPON/CORVETTE/impact/weapon_corvette_vulcan_kinetic_turret_hit/weapon_corvette_vulcan_kinetic_turret_hit3", }, 
+                { "fx_scale", "0.3", }, 
+                { "fx_nlips", "on", }, 
+            }, }, }

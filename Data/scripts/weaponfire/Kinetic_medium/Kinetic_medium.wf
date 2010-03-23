@@ -1,0 +1,17 @@
+-- Cold Fusion LUA Decompiler v1.0.0
+-- By 4E534B
+-- Date: 07-25-2007 Time: 22:56:59
+-- On error(s), send source (compiled) file to 4E534B@gmail.com
+
+hitfx="dmg_cloud_spray_large";
+bulletfx="kinetic_large_bullet";
+nopenetratefx="dmg_cloud_spray_large";
+deathtype="deathCannon";
+scartype="Kinetic_Large/Kinetic_Large";
+hit_sfx="WEAPON/FRIGATE/IMPACT/WEAPON_FRIGATE_FLECHETTE_CANNON_HIT";
+fire_sfx="WEAPON/CARRIER/FIRE/WEAPON_DESTROYER_CANNON_SHELL";
+firefx="muzzle_flash_combo_small_capital";
+nopenetrate_sfx="WEAPON/FRIGATE/IMPACT/WEAPON_FRIGATE_FLECHETTE_CANNON_HIT";
+hit_clamp={1,
+	1};
+

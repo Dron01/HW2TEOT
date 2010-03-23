@@ -1,0 +1,21 @@
+-- Cold Fusion LUA Decompiler v1.0.0
+-- By 4E534B
+-- Date: 07-25-2007 Time: 22:23:33
+-- On error(s), send source (compiled) file to 4E534B@gmail.com
+
+fps=35;
+startFrame=0;
+loopCount=10;
+texture={"data:/ART/FX/ion_beam/LIL_ion_warp_tp0.tga",
+	"data:/ART/FX/ion_beam/LIL_ion_warp_tp1.tga",
+	"data:/ART/FX/ion_beam/LIL_ion_warp_tp2.tga",
+	"data:/ART/FX/ion_beam/LIL_ion_warp_tp3.tga",
+	"data:/ART/FX/ion_beam/LIL_ion_warp_tp4.tga",
+	"data:/ART/FX/ion_beam/LIL_ion_warp_tp5.tga",
+	"data:/ART/FX/ion_beam/LIL_ion_warp_tp5.tga",
+	"data:/ART/FX/ion_beam/LIL_ion_warp_tp4.tga",
+	"data:/ART/FX/ion_beam/LIL_ion_warp_tp3.tga",
+	"data:/ART/FX/ion_beam/LIL_ion_warp_tp2.tga",
+	"data:/ART/FX/ion_beam/LIL_ion_warp_tp1.tga",
+	"data:/ART/FX/ion_beam/LIL_ion_warp_tp0.tga"};
+
